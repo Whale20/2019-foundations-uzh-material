@@ -1,0 +1,89 @@
+2154  git --version
+ 2155  git config --global user.name "Lachlan Deer"
+ 2156  git config --global user.email "lachlan.deer@gmail.com"
+ 2157  git config --list
+ 2158  git config --global core.editor "atom --wait"
+ 2159  git init
+ 2160  ls
+ 2161  ls -a
+ 2162  git status
+ 2163  touch README.md
+ 2164  atom .
+ 2165  git status
+ 2166  git add README.md
+ 2167  git status
+ 2168  git commit -m "created empty readme"
+ 2169  git status
+ 2170  git log
+ 2171  git status
+ 2172  git add README.md
+ 2173  git status
+ 2174  git commit -m "wrote the readme"
+ 2175  git log
+ 2176  touch paper.md
+ 2177  git status
+ 2178  git add paper.md
+ 2179  git commit
+ 2180  git status
+ 2181  git commit -m "started the paper, its great!"
+ 2182  git add paper.md
+ 2183  git commit -m "started the paper"
+ 2184  git log
+ 2185  git status
+ 2186  git diff paper.md
+ 2187  git add paper.md
+ 2188  git commit -m "discussed australian favourites"
+ 2189  git diff
+ 2190  git add paper.md
+ 2191  git commit -m "added extra countries"
+ 2192  git log
+ 2193  git checkout 8d8f5b5f5paper.md
+ 2194  git checkout 8d8f5b5f5 paper.md
+ 2195  git status
+ 2196  git add paper.md
+ 2197  git status
+ 2198  git commit -m "remove italy, switzerland, add usa"
+ 2199  git log
+ 2200  git diff 1dc18911 5c42c39a
+ 2201  git diff 5c42c39a 1dc1891
+ 2202  git diff 5c42c39a 1dc1891 > log_git_diff.txt
+ 2203  git checkout 5c42c39a
+ 2204  git checkout master
+ 2205  git status
+ 2206  touch .gitignore
+ 2207  git status
+ 2208  git add .
+ 2209  git status
+ 2210  git commit -m "start a gitignore file"
+ 2211  touch {1..10}_data.txt
+ 2212  git status
+ 2213  git commit -am "ignore all txt files"
+ 2214  git commit -am "ignore all log files in subdirectory"
+ 2215  mkdir log
+ 2216  touch log/{1..10}.log
+ 2217  git status
+ 2218  git checkout -b experimental
+ 2219  git status
+ 2220  git log
+ 2221  git commit -am "clarify the intro"
+ 2222  touch count_sections.sh
+ 2223  bash count_sections.sh
+ 2224  git status
+ 2225  git add count_sections.sh
+ 2226  git commit -m "script to count number of sections in paper"
+ 2227  git status
+ 2228  git log -4
+ 2229  git checkout master
+ 2230  git log
+ 2231  git merge experimental
+ 2232  git status
+ 2233  git log
+ 2234  git branch
+ 2235  git checkout 53eaac08
+ 2236  git checkout master
+ 2237  git commit -am "add lit review"
+ 2238  git checkout experimental
+ 2239  git commit -am "add conclusion"
+ 2240  git master
+ 2241  git checkout master
+ 2242  git merge experimental 
