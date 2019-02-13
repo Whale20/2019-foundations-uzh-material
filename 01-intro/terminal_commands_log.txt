@@ -1,0 +1,135 @@
+2001  cd Desktop/
+ 2002  unzip data-shell.zip -d data-shell
+ 2003  cd data-shell/
+ 2004  clear
+ 2005  cd
+ 2006  whoami
+ 2007  pwd
+ 2008  cd ..
+ 2009  ls
+ 2010  mv data-shell/* .
+ 2011  ls
+ 2012  rm data-shell/
+ 2013  clear
+ 2014  #cd C:
+ 2015  #cd Users/lachlan/Desktop/data-shell
+ 2016  pwd
+ 2017  ls
+ 2018  ls -F
+ 2019  ls -d
+ 2020  ls -D
+ 2021  ls -a
+ 2022  ls -j
+ 2023  ls --help
+ 2024  ls -a
+ 2025  man ls
+ 2026  ls -a
+ 2027  ls --all
+ 2028  ls north-pacific-gyre
+ 2029  ls -a north-pacific-gyre
+ 2030  ls north-pacific-gyre/2012-07-03/
+ 2031  ls .
+ 2032  ls
+ 2033  ls ..
+ 2034  cd ..
+ 2035  pwd
+ 2036  cd data-shell/
+ 2037  ls
+ 2038  cat notes.txt
+ 2039  cat north-pacific-gyre/2012-07-03/NENE02043B.txt
+ 2040  head north-pacific-gyre/2012-07-03/NENE02043B.txt
+ 2041  head -n 3 north-pacific-gyre/2012-07-03/NENE02043B.txt
+ 2042  tail -n 3 north-pacific-gyre/2012-07-03/NENE02043B.txt
+ 2043  head solar.pdf
+ 2044  less north-pacific-gyre/2012-07-03/NENE0204B.txt
+ 2045  less north-pacific-gyre/2012-07-03/NENE02043B.txt
+ 2046  less /home/lachlan/Desktop/data-she;
+ 2047  less /home/lachlan/Desktop/data-shell/north-pacific-gyre/2012-07-03/NENE02043B.txt
+ 2048  ls
+ 2049  touch my_file.txt
+ 2050  ls -F
+ 2051  touch my_file.txt
+ 2052  ls -t
+ 2053  man ls
+ 2054  ls -l
+ 2055  touch my_file.txt
+ 2056  ls -l
+ 2057  nano my_file.txt
+ 2058  vi my_file.txt
+ 2059  atom .
+ 2060  cat my_file.txt
+ 2061  mkdir my_folder
+ 2062  ls
+ 2063  ls my_f
+ 2064  ls my_folder/
+ 2065  mkdir data/bls
+ 2066  mkdir my_data/bls
+ 2067  mkdir -p my_data/bls
+ 2068  ls my_data/
+ 2069  touch my_data/{1..50}.csv
+ 2070  ls my_d
+ 2071  ls my_data/
+ 2072  touch my_data/new_{1..50}.csv
+ 2073  ls my_data/
+ 2074  mkdir old_data new_data
+ 2075  ls
+ 2076  ls my_data/
+ 2077  mkdir my_data/old_data my_data/new_data
+ 2078  ls my_data/
+ 2079  cp my_data/1.csv my_data/old_data/
+ 2080  ls my_data/
+ 2081  ls my_data/old_data/
+ 2082  cp my_data/1.csv my_data/old_data/ols_file_1.csv
+ 2083  ls my_data/old_data/
+ 2084  cd my_data/
+ 2085  mv old_data/ols_file_1.csv old_data/old_file_1.csv
+ 2086  ls old_data/
+ 2087  mv 2.csv old_data/
+ 2088  ls old_data/
+ 2089  ls
+ 2090  mv 3.csv old_data
+ 2091  lso old_data
+ 2092  ls old_data/
+ 2093  mv 3.csv ols_data
+ 2094  ls
+ 2095  mv new* new_data/
+ 2096  mv new*.csv new_data/
+ 2097  mv new_*.csv new_data/
+ 2098  mv new_*.csv new_data/.
+ 2099  mv new_*.csv new_data
+ 2100  mv new_*.csv new_data/
+ 2101  ls
+ 2102  touch new_{1..50}.csv
+ 2103  ls
+ 2104* mv new**.csv new_data/
+ 2105  touch {a..z}_{1..50}.csv
+ 2106  ls
+ 2107  mkdir supplementary_data
+ 2108  mv *_*.csv supplementary_data/
+ 2109  ls
+ 2110  ls supplementary_data/
+ 2111  ls
+ 2112  touch 100.csv
+ 2113  ls
+ 2114  mv 1?.csv old_data/
+ 2115  ls
+ 2116  mv 1?{0,1}.csv old_data/
+ 2117  mv 1?[0,1].csv old_data/
+ 2118  ls
+ 2119  rm 1.csv
+ 2120  ls
+ 2121  rm 2*.csv
+ 2122  ls
+ 2123  rm -i 3*.csv
+ 2124  ls
+ 2125  man rm
+ 2126  ls 4*.csv
+ 2127  echo rm 4*.csv
+ 2128  ls
+ 2129  rmdir supplementary_data/
+ 2130  rm -f supplementary_data/
+ 2131  rm -f supplementary_data
+ 2132  rm -rf supplementary_data/
+ 2133  echo rm -rf new_data/
+ 2134  echo rm -rf new_data/*
+ 2135  rm -rf new_data/*
