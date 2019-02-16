@@ -23,6 +23,10 @@ https://github.com/pp4rs/2019-snakemake-zurich
 Julian and I are working on a extended tutorial that explains how to use snakemake to build a entire project.
 It uses the same exaple as today, but uses a different order - because it's designed for more than 6 hours of teaching.
 
+You can view the current draft (which is missing a lot of explanation still) here:
+
+https://lachlandeer.github.io/snakemake-econ-r-tutorial/
+
 ## Extra Material
 
 In `2017-material` there are slides and examples from the 2017 version of the course. 
